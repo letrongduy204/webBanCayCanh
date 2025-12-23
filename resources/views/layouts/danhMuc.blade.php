@@ -21,7 +21,7 @@
     <div class="row text-center mt-3">
 
         <div class="col-6 col-md-3 col-lg-3 mb-3">
-            <a href="/product" class="text-decoration-none text-dark">
+            <a href="#" class="text-decoration-none text-dark">
             <div class="mx-auto category-img" 
                 style='background-image:url("/image/cay1.jpg");'>
             </div>
@@ -30,7 +30,7 @@
         </div>
 
         <div class="col-6 col-md-3 col-lg-3 mb-3">
-            <a href="/product" class="text-decoration-none text-dark">
+            <a href="#" class="text-decoration-none text-dark">
             <div class="mx-auto category-img" 
                 style='background-image:url("/image/cay2.jpg");'>
             </div>
@@ -39,7 +39,7 @@
         </div>
 
         <div class="col-6 col-md-3 col-lg-3 mb-3">
-            <a href="/product" class="text-decoration-none text-dark">
+            <a href="#" class="text-decoration-none text-dark">
             <div class="mx-auto category-img" 
                 style='background-image:url("/image/cay3.jpg");'>
             </div>
@@ -48,7 +48,7 @@
         </div>
 
         <div class="col-6 col-md-3 col-lg-3 mb-3">
-            <a href="/product" class="text-decoration-none text-dark">
+            <a href="#" class="text-decoration-none text-dark">
             <div class="mx-auto category-img" 
                 style='background-image:url("/image/cay4.jpg");'>
             </div>

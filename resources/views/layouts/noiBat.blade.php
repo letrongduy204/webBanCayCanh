@@ -19,18 +19,22 @@
     <div class="row g-4">
     @if(isset($products) && $products->count())
         @foreach($products as $p)
+        
         <div class="col-12 col-sm-6 col-lg-3">
             <div class="card shadow-sm h-100">
+                <a class ="text-decoration-none text-dark"href="{{ route('caycanh.show', $p->SanPhamID) }}">
 
                 <img src="{{ $p->HinhAnhURL }}" class="card-img-top" height="200" style="object-fit:cover;">
 
                 <div class="card-body">
-                    <h5 class="card-title">{{ $p->TenSanPham }}</h5>
+                    <h5 class="card-title ">{{ $p->TenSanPham }}</h5>
                     <p class="text-success fw-bold fs-5">{{ number_format($p->GiaBan) }}đ</p>
                 </div>
+                </a>
 
             </div>
         </div>
+        
         @endforeach
         @else
             <p>Chưa có sản phẩm nổi bật.</p>

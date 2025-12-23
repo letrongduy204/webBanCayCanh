@@ -21,7 +21,6 @@
     .navbar-custom { background-color: #dff5d1 !important; }
     .topbar { background: #2c3e50; color: #fff; }
 
-    /* Card giống hình */
     .product-card{
       border-radius: 14px;
       overflow: hidden;
@@ -56,13 +55,13 @@
 
 <body class="bg-light">
 
-{{-- TOP NAVBAR --}}
+
     @include('layouts.navbar')
 
-    {{-- MENU NAVBAR --}}
+
     @include('layouts.MenuNavbar')
 
-    {{-- NỘI DUNG TRANG --}}
+
 
 
 

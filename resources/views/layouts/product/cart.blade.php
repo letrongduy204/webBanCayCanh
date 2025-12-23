@@ -1,5 +1,5 @@
 <div class="col-12 col-sm-6 col-lg-3">
-  <a href="{{ route('caycanh.show', $p->SanPhamID) }}"
+  <a href="{{ route('caycanh.show', $p->SanPhamID) }}" 
      class="text-decoration-none text-dark d-block h-100">
 
     <div class="product-card h-100">
@@ -12,6 +12,5 @@
         </div>
       </div>
     </div>
-
-  </a>
+  </a> 
 </div>
